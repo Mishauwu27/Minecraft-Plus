@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "minecraft-plus",
+	"version": "${version}",
+	"name": "Minecraft+",
+	"description": "The ultimate way to enhance Minecraft!",
+	"authors": [
+		"Mishauwu27"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/minecraft-plus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.mishauwu27.minecraftplus.MinecraftPlus"
+		],
+		"fabric-datagen": [
+			"dev.mishauwu27.minecraftplus.MinecraftPlusDataGenerator"
+		],
+		"client": [
+			"dev.mishauwu27.minecraftplus.MinecraftPlusClient"
+		]
+	},
+	"mixins": [
+		"minecraft-plus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
