@@ -1,6 +1,9 @@
 package dev.mishauwu27.minecraftplus;
 
+import dev.mishauwu27.minecraftplus.init.PlusBlocks;
+import dev.mishauwu27.minecraftplus.init.PlusItems;
 import net.fabricmc.api.ModInitializer;
+import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -10,6 +13,17 @@ public class MinecraftPlus implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Loading Thingies...");
+		PlusItems.load();
+		PlusBlocks.load();
+		LOGGER.info("Loaded Thingies!");
+	}
+
+	public static Identifier id(String path) {
+		return Identifier.of("minecraft", path);
+	}
+
+	public static Identifier idPlus(String path) {
+		return Identifier.of(MOD_ID, path);
 	}
 }
