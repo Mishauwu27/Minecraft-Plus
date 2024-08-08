@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_obsidian": {
+    "has_potato": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:obsidian"
+            "items": "minecraft:potato"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:obsidian"
+        "recipe": "minecraft:golden_potato"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_obsidian"
+      "has_potato"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:obsidian"
+      "minecraft:golden_potato"
     ]
   }
 }

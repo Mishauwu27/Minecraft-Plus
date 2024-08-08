@@ -17,6 +17,7 @@ public class PlusEnUsLangProvider extends FabricLanguageProvider {
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(PlusBlocks.NETHER_IRON_ORE, "Nether Iron Ore");
 
+        translationBuilder.add(PlusItems.CRYING_OBSIDIAN_SHARD, "Crying Obsidian Shard");
         translationBuilder.add(PlusItems.ENCHANTED_GOLDEN_BAKED_POTATO, "Enchanted Golden Baked Potato");
         translationBuilder.add(PlusItems.ENCHANTED_GOLDEN_CARROT, "Enchanted Golden Carrot");
         translationBuilder.add(PlusItems.GOLDEN_BAKED_POTATO, "Golden Baked Potato");

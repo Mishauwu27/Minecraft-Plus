@@ -18,6 +18,7 @@ public class PlusFoodComponentList {
             .nutrition(8)
             .saturationModifier(1.2F)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 100, 0), 1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SATURATION, 12, 0), 1F)
             .alwaysEdible()
             .build();
     public static final FoodComponent GOLDEN_BAKED_POTATO = new FoodComponent.Builder()

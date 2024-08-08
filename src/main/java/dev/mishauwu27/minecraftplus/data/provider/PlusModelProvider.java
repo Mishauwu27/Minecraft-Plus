@@ -20,6 +20,7 @@ public class PlusModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
+        itemModelGenerator.register(PlusItems.CRYING_OBSIDIAN_SHARD, Models.GENERATED);
         itemModelGenerator.register(PlusItems.ENCHANTED_GOLDEN_BAKED_POTATO, Models.GENERATED);
         itemModelGenerator.register(PlusItems.ENCHANTED_GOLDEN_CARROT, Models.GENERATED);
         itemModelGenerator.register(PlusItems.GOLDEN_BAKED_POTATO, Models.GENERATED);

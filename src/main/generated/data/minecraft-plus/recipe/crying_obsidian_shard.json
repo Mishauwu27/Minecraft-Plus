@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:crying_obsidian"
     }
   ],
   "result": {
     "count": 9,
-    "id": "minecraft:obsidian_shard"
+    "id": "minecraft:crying_obsidian_shard"
   }
 }

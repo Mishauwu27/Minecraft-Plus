@@ -3,7 +3,7 @@
   "category": "building",
   "key": {
     "S": {
-      "item": "minecraft:obsidian_shard"
+      "item": "minecraft:crying_obsidian_shard"
     }
   },
   "pattern": [
@@ -13,6 +13,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "minecraft:obsidian"
+    "id": "minecraft:crying_obsidian"
   }
 }
