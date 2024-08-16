@@ -1,6 +1,7 @@
 package dev.mishauwu27.minecraftplus.data.provider;
 
 import dev.mishauwu27.minecraftplus.init.PlusBlocks;
+import dev.mishauwu27.minecraftplus.init.PlusEnchantments;
 import dev.mishauwu27.minecraftplus.init.PlusItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricLanguageProvider;
@@ -16,6 +17,9 @@ public class PlusEnUsLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(RegistryWrapper.WrapperLookup registryLookup, TranslationBuilder translationBuilder) {
         translationBuilder.add(PlusBlocks.NETHER_IRON_ORE, "Nether Iron Ore");
+
+        translationBuilder.addEnchantment(PlusEnchantments.SOUL_ASPECT, "Soul Aspect");
+        translationBuilder.addEnchantment(PlusEnchantments.SOUL_FLAME, "Soul Flame");
 
         translationBuilder.add(PlusItems.CRYING_OBSIDIAN_SHARD, "Crying Obsidian Shard");
         translationBuilder.add(PlusItems.ENCHANTED_GOLDEN_BAKED_POTATO, "Enchanted Golden Baked Potato");

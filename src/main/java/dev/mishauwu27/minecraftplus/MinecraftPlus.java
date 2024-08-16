@@ -1,6 +1,7 @@
 package dev.mishauwu27.minecraftplus;
 
 import dev.mishauwu27.minecraftplus.init.PlusBlocks;
+import dev.mishauwu27.minecraftplus.init.PlusEnchantments;
 import dev.mishauwu27.minecraftplus.init.PlusItems;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
@@ -16,6 +17,7 @@ public class MinecraftPlus implements ModInitializer {
 		LOGGER.info("Loading Thingies...");
 		PlusItems.load();
 		PlusBlocks.load();
+		PlusEnchantments.load();
 		LOGGER.info("Loaded Thingies!");
 	}
 

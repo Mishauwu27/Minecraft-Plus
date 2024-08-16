@@ -28,12 +28,10 @@ public class PlusRecipeProvider extends FabricRecipeProvider {
                 .pattern("SSS")
                 .criterion(hasItem(Blocks.CRYING_OBSIDIAN), conditionsFromItem(Blocks.CRYING_OBSIDIAN))
                 .offerTo(exporter);
-
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, PlusItems.CRYING_OBSIDIAN_SHARD, 9)
                 .input(Blocks.CRYING_OBSIDIAN)
                 .criterion(hasItem(PlusItems.CRYING_OBSIDIAN_SHARD), conditionsFromItem(PlusItems.CRYING_OBSIDIAN_SHARD))
                 .offerTo(exporter);
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, Blocks.OBSIDIAN)
                 .input('S', PlusItems.OBSIDIAN_SHARD)
                 .pattern("SSS")
@@ -41,12 +39,10 @@ public class PlusRecipeProvider extends FabricRecipeProvider {
                 .pattern("SSS")
                 .criterion(hasItem(Blocks.OBSIDIAN), conditionsFromItem(Blocks.OBSIDIAN))
                 .offerTo(exporter);
-
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, PlusItems.OBSIDIAN_SHARD, 9)
                 .input(Blocks.OBSIDIAN)
                 .criterion(hasItem(PlusItems.OBSIDIAN_SHARD), conditionsFromItem(PlusItems.OBSIDIAN_SHARD))
                 .offerTo(exporter);
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, PlusItems.GOLDEN_POTATO)
                 .input('P', Items.POTATO)
                 .input('G', Items.RAW_GOLD)
@@ -55,7 +51,6 @@ public class PlusRecipeProvider extends FabricRecipeProvider {
                 .pattern("GGG")
                 .criterion(hasItem(Items.POTATO), conditionsFromItem(Items.POTATO))
                 .offerTo(exporter);
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, PlusItems.GOLDEN_POISONOUS_POTATO)
                 .input('P', Items.POISONOUS_POTATO)
                 .input('G', Items.GOLD_BLOCK)
