@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_obsidian_shard": {
+    "has_obsidian": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:obsidian_shard"
+            "items": "minecraft:obsidian"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_obsidian_shard"
+      "has_obsidian"
     ]
   ],
   "rewards": {

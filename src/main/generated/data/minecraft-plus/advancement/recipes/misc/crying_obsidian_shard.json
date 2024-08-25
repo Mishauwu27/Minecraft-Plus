@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_crying_obsidian_shard": {
+    "has_crying_obsidian": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:crying_obsidian_shard"
+            "items": "minecraft:crying_obsidian"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_crying_obsidian_shard"
+      "has_crying_obsidian"
     ]
   ],
   "rewards": {

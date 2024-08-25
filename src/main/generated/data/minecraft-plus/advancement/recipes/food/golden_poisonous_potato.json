@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_poisonous_potato": {
+    "has_gold_block": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:poisonous_potato"
+            "items": "minecraft:gold_block"
           }
         ]
       },
@@ -21,7 +21,7 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_poisonous_potato"
+      "has_gold_block"
     ]
   ],
   "rewards": {

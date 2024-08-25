@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": {
+    "#": {
       "item": "minecraft:gold_block"
     },
-    "P": {
+    "X": {
       "item": "minecraft:poisonous_potato"
     }
   },
   "pattern": [
-    "GGG",
-    "GPG",
-    "GGG"
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
     "count": 1,

@@ -2,17 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "G": {
+    "#": {
       "item": "minecraft:raw_gold"
     },
-    "P": {
+    "X": {
       "item": "minecraft:potato"
     }
   },
   "pattern": [
-    "GGG",
-    "GPG",
-    "GGG"
+    "###",
+    "#X#",
+    "###"
   ],
   "result": {
     "count": 1,

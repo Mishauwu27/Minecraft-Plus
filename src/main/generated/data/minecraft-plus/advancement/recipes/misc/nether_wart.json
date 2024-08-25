@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_crying_obsidian_shard": {
+    "has_block": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:crying_obsidian_shard"
+            "items": "minecraft:nether_wart_block"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:crying_obsidian"
+        "recipe": "minecraft:nether_wart"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_crying_obsidian_shard"
+      "has_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:crying_obsidian"
+      "minecraft:nether_wart"
     ]
   }
 }

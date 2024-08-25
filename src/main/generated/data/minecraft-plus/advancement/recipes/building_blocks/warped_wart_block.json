@@ -1,32 +1,32 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_raw_gold": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:warped_wart_block"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_warped_wart": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:raw_gold"
+            "items": "minecraft:warped_wart"
           }
         ]
       },
       "trigger": "minecraft:inventory_changed"
-    },
-    "has_the_recipe": {
-      "conditions": {
-        "recipe": "minecraft:golden_potato"
-      },
-      "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
       "has_the_recipe",
-      "has_raw_gold"
+      "has_warped_wart"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:golden_potato"
+      "minecraft:warped_wart_block"
     ]
   }
 }

@@ -2,11 +2,22 @@
   "block.minecraft.nether_iron_ore": "Nether Iron Ore",
   "enchantment.minecraft.soul_aspect": "Soul Aspect",
   "enchantment.minecraft.soul_flame": "Soul Flame",
+  "item.minecraft.acacia_lumber": "Acacia Lumber",
+  "item.minecraft.birch_lumber": "Birch Lumber",
+  "item.minecraft.cherry_lumber": "Cherry Lumber",
+  "item.minecraft.crimson_lumber": "Crimson Lumber",
   "item.minecraft.crying_obsidian_shard": "Crying Obsidian Shard",
+  "item.minecraft.dark_oak_lumber": "Dark Oak Lumber",
   "item.minecraft.enchanted_golden_baked_potato": "Enchanted Golden Baked Potato",
   "item.minecraft.enchanted_golden_carrot": "Enchanted Golden Carrot",
   "item.minecraft.golden_baked_potato": "Golden Baked Potato",
   "item.minecraft.golden_poisonous_potato": "Golden Poisonous Potato",
   "item.minecraft.golden_potato": "Golden Potato",
-  "item.minecraft.obsidian_shard": "Obsidian Shard"
+  "item.minecraft.jungle_lumber": "Jungle Lumber",
+  "item.minecraft.mangrove_lumber": "Mangrove Lumber",
+  "item.minecraft.oak_lumber": "Oak Lumber",
+  "item.minecraft.obsidian_shard": "Obsidian Shard",
+  "item.minecraft.spruce_lumber": "Spruce Lumber",
+  "item.minecraft.warped_lumber": "Warped Lumber",
+  "item.minecraft.warped_wart": "Warped Wart"
 }

@@ -1,6 +1,7 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_column",
   "textures": {
-    "all": "minecraft:block/nether_iron_ore"
+    "end": "minecraft:block/nether_iron_ore_top",
+    "side": "minecraft:block/nether_iron_ore_side"
   }
 }

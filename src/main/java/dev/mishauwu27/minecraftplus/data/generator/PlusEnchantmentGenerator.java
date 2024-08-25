@@ -43,7 +43,7 @@ public class PlusEnchantmentGenerator extends FabricDynamicRegistryProvider {
                 .addEffect(EnchantmentEffectComponentTypes.POST_ATTACK,
                         EnchantmentEffectTarget.ATTACKER,
                         EnchantmentEffectTarget.VICTIM,
-                        new SoulIgniteEnchantmentEffect(EnchantmentLevelBasedValue.linear(4.0f)),
+                        new SoulIgniteEnchantmentEffect(EnchantmentLevelBasedValue.linear(3.0f)),
                         DamageSourcePropertiesLootCondition.builder(DamageSourcePredicate.Builder.create().isDirect(true)))
         );
         register(entries, PlusEnchantments.SOUL_FLAME, Enchantment.builder(
