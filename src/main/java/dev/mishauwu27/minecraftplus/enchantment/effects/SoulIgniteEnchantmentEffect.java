@@ -1,4 +1,4 @@
-package dev.mishauwu27.minecraftplus.enchantments.effects;
+package dev.mishauwu27.minecraftplus.enchantment.effects;
 
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;

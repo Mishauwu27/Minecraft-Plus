@@ -1,6 +1,6 @@
 package dev.mishauwu27.minecraftplus.data.generator;
 
-import dev.mishauwu27.minecraftplus.enchantments.effects.SoulIgniteEnchantmentEffect;
+import dev.mishauwu27.minecraftplus.enchantment.effects.SoulIgniteEnchantmentEffect;
 import dev.mishauwu27.minecraftplus.init.PlusEnchantments;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider;

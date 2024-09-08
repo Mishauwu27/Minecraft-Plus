@@ -2,7 +2,7 @@ package dev.mishauwu27.minecraftplus.init;
 
 import com.mojang.serialization.MapCodec;
 import dev.mishauwu27.minecraftplus.MinecraftPlus;
-import dev.mishauwu27.minecraftplus.enchantments.effects.SoulIgniteEnchantmentEffect;
+import dev.mishauwu27.minecraftplus.enchantment.effects.SoulIgniteEnchantmentEffect;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.effect.EnchantmentEntityEffect;
 import net.minecraft.registry.Registries;

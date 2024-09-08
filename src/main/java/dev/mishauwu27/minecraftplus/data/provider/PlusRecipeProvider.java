@@ -10,7 +10,6 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
-import net.minecraft.recipe.book.CookingRecipeCategory;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
@@ -68,12 +67,29 @@ public class PlusRecipeProvider extends FabricRecipeProvider {
                 .offerTo(exporter);
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.NETHER_WART, 9)
                 .input(Items.NETHER_WART_BLOCK)
-                .criterion("has_block", conditionsFromItem(Blocks.NETHER_WART_BLOCK))
+                .criterion("has_nether_wart_block", conditionsFromItem(Blocks.NETHER_WART_BLOCK))
                 .offerTo(exporter);
         RecipeProvider.offerReversibleCompactingRecipes(exporter,
                 RecipeCategory.MISC,
                 PlusItems.WARPED_WART,
                 RecipeCategory.BUILDING_BLOCKS,
                 Items.WARPED_WART_BLOCK);
+        offerSmelting(exporter,
+                List.of(PlusBlocks.NETHER_IRON_ORE),
+                RecipeCategory.MISC,
+                Items.IRON_INGOT,
+                0.7F,
+                200,
+                "iron_ingot");
+        offerBlasting(exporter,
+                List.of(PlusBlocks.NETHER_IRON_ORE),
+                RecipeCategory.MISC,
+                Items.IRON_INGOT,
+                0.7F,
+                200,
+                "iron_ingot");
+        CookingRecipeJsonBuilder.createSmelting(Ingredient.ofItems(PlusItems.GOLDEN_POTATO), RecipeCategory.FOOD, PlusItems.GOLDEN_BAKED_POTATO, 0.35F, 200)
+                .criterion("has_golden_potato", conditionsFromItem(PlusItems.GOLDEN_POTATO))
+                .offerTo(exporter);
     }
 }
