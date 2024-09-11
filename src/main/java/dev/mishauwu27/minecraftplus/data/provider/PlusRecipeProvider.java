@@ -63,7 +63,7 @@ public class PlusRecipeProvider extends FabricRecipeProvider {
                 .pattern("###")
                 .pattern("#X#")
                 .pattern("###")
-                .criterion("has_gold_block", conditionsFromItem(Items.GOLD_BLOCK))
+                .criterion("has_gold_block", conditionsFromItem(Blocks.GOLD_BLOCK))
                 .offerTo(exporter);
         ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, Items.NETHER_WART, 9)
                 .input(Items.NETHER_WART_BLOCK)

@@ -36,7 +36,6 @@ public class PlusModelProvider extends FabricModelProvider {
         var smoothBasaltFamily = new BlockFamily.Builder(Blocks.SMOOTH_BASALT).slab(PlusBlocks.SMOOTH_BASALT_SLAB).build();
         var endStoneFamily = new BlockFamily.Builder(Blocks.END_STONE).slab(PlusBlocks.END_STONE_SLAB).build();
         var sculkFamily = new BlockFamily.Builder(Blocks.SCULK).slab(PlusBlocks.SCULK_SLAB).build();
-        var bedrockFamily = new BlockFamily.Builder(Blocks.BEDROCK).slab(PlusBlocks.BEDROCK_SLAB).build();
 
         blockStateModelGenerator.registerCubeAllModelTexturePool(dirtFamily.getBaseBlock())
                 .family(dirtFamily);
@@ -76,8 +75,6 @@ public class PlusModelProvider extends FabricModelProvider {
                 .family(endStoneFamily);
         blockStateModelGenerator.registerCubeAllModelTexturePool(sculkFamily.getBaseBlock())
                 .family(sculkFamily);
-        blockStateModelGenerator.registerCubeAllModelTexturePool(bedrockFamily.getBaseBlock())
-                .family(bedrockFamily);
     }
 
     @Override
@@ -98,5 +95,7 @@ public class PlusModelProvider extends FabricModelProvider {
         itemModelGenerator.register(PlusItems.SPRUCE_LUMBER, Models.GENERATED);
         itemModelGenerator.register(PlusItems.WARPED_LUMBER, Models.GENERATED);
         itemModelGenerator.register(PlusItems.WARPED_WART, Models.GENERATED);
+        itemModelGenerator.register(PlusItems.COBBLE, Models.GENERATED);
+        itemModelGenerator.register(PlusItems.DEEPCOBBLE, Models.GENERATED);
     }
 }

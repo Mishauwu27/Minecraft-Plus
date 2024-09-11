@@ -13,10 +13,10 @@ public class PlusBlocks {
     public static final Block GRASS_SLAB = registerWithItem("grass_slab", PlusBlockList.GRASS_SLAB);
     public static final Block PODZOL_SLAB = registerWithItem("podzol_slab", PlusBlockList.PODZOL_SLAB);
     public static final Block MYCELIUM_SLAB = registerWithItem("mycelium_slab", PlusBlockList.MYCELIUM_SLAB);
-    public static final Block DIRT_PATH_SLAB = registerWithItem("dirt_path_slab", PlusBlockList.DIRT_PATH_SLAB);
+    //public static final Block DIRT_PATH_SLAB = registerWithItem("dirt_path_slab", PlusBlockList.DIRT_PATH_SLAB);
     public static final Block DIRT_SLAB = registerWithItem("dirt_slab", PlusBlockList.DIRT_SLAB);
     public static final Block COARSE_DIRT_SLAB = registerWithItem("coarse_dirt_slab", PlusBlockList.COARSE_DIRT_SLAB);
-    public static final Block FARMLAND_SLAB = registerWithItem("farmland_slab", PlusBlockList.FARMLAND_SLAB);
+    //public static final Block FARMLAND_SLAB = registerWithItem("farmland_slab", PlusBlockList.FARMLAND_SLAB);
     public static final Block MUD_SLAB = registerWithItem("mud_slab", PlusBlockList.MUD_SLAB);
     public static final Block CLAY_SLAB = registerWithItem("clay_slab", PlusBlockList.CLAY_SLAB);
     public static final Block GRAVEL_SLAB = registerWithItem("gravel_slab", PlusBlockList.GRAVEL_SLAB);

@@ -33,7 +33,7 @@ public class PlusFoodComponentList {
             .statusEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 1200, 2), 1F)
             .statusEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 1200, 2), 1F)
             .statusEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 1200, 2), 1F)
-            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1200, 2), 1F)
+            .statusEffect(new StatusEffectInstance(StatusEffects.ABSORPTION, 1200, 0), 1F)
             .alwaysEdible()
             .build();
     public static final FoodComponent GOLDEN_POISONOUS_POTATO = new FoodComponent.Builder()

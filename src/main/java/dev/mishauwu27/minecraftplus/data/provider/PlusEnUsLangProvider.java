@@ -20,10 +20,10 @@ public class PlusEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(PlusBlocks.GRASS_SLAB, "Grass Slab");
         translationBuilder.add(PlusBlocks.PODZOL_SLAB, "Podzol Slab");
         translationBuilder.add(PlusBlocks.MYCELIUM_SLAB, "Mycelium Slab");
-        translationBuilder.add(PlusBlocks.DIRT_PATH_SLAB, "Dirt Path Slab");
+        //translationBuilder.add(PlusBlocks.DIRT_PATH_SLAB, "Dirt Path Slab");
         translationBuilder.add(PlusBlocks.DIRT_SLAB, "Dirt Slab");
         translationBuilder.add(PlusBlocks.COARSE_DIRT_SLAB, "Coarse Dirt Slab");
-        translationBuilder.add(PlusBlocks.FARMLAND_SLAB, "Farmland Slab");
+        //translationBuilder.add(PlusBlocks.FARMLAND_SLAB, "Farmland Slab");
         translationBuilder.add(PlusBlocks.MUD_SLAB, "Mud Slab");
         translationBuilder.add(PlusBlocks.CLAY_SLAB, "Clay Slab");
         translationBuilder.add(PlusBlocks.GRAVEL_SLAB, "Gravel Slab");
@@ -70,5 +70,7 @@ public class PlusEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(PlusItems.SPRUCE_LUMBER, "Spruce Lumber");
         translationBuilder.add(PlusItems.WARPED_LUMBER, "Warped Lumber");
         translationBuilder.add(PlusItems.WARPED_WART, "Warped Wart");
+        translationBuilder.add(PlusItems.COBBLE, "Cobble");
+        translationBuilder.add(PlusItems.DEEPCOBBLE, "Deepcobble");
     }
 }

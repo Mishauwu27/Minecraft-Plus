@@ -18,10 +18,10 @@ public class PlusBlockList {
     public static final Block GRASS_SLAB = new GrassSlabBlock(AbstractBlock.Settings.copy(Blocks.GRASS_BLOCK));
     public static final Block PODZOL_SLAB = new SnowySlabBlock(AbstractBlock.Settings.copy(Blocks.PODZOL));
     public static final Block MYCELIUM_SLAB = new MyceliumSlabBlock(AbstractBlock.Settings.copy(Blocks.MYCELIUM));
-    public static final Block DIRT_PATH_SLAB = new DirtPathSlabBlock(AbstractBlock.Settings.copy(Blocks.DIRT_PATH));
+    //public static final Block DIRT_PATH_SLAB = new DirtPathSlabBlock(AbstractBlock.Settings.copy(Blocks.DIRT_PATH));
     public static final Block DIRT_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.DIRT));
     public static final Block COARSE_DIRT_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.COARSE_DIRT));
-    public static final Block FARMLAND_SLAB = new FarmlandSlabBlock(AbstractBlock.Settings.copy(Blocks.FARMLAND));
+    //public static final Block FARMLAND_SLAB = new FarmlandSlabBlock(AbstractBlock.Settings.copy(Blocks.FARMLAND));
     public static final Block MUD_SLAB = new MudSlabBlock(AbstractBlock.Settings.copy(Blocks.MUD));
     public static final Block CLAY_SLAB = new SlabBlock(AbstractBlock.Settings.copy(Blocks.CLAY));
     public static final Block GRAVEL_SLAB = new ColoredFallingSlabBlock(new ColorCode(-8356741), AbstractBlock.Settings.copy(Blocks.GRAVEL) );

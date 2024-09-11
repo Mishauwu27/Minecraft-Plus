@@ -27,6 +27,16 @@ public class PlusItems {
     public static final Item SPRUCE_LUMBER = register("spruce_lumber", new Item(new Item.Settings()));
     public static final Item WARPED_LUMBER = register("warped_lumber", new Item(new Item.Settings()));
     public static final Item WARPED_WART = register("warped_wart", new Item(new Item.Settings()));
+    public static final Item COBBLE = register("cobble", new Item(new Item.Settings()));
+    public static final Item DEEPCOBBLE = register("deepcobble", new Item(new Item.Settings()));
+    public static final Item TUFF_COBBLE = register("tuff_cobble", new Item(new Item.Settings()));
+    public static final Item SANDCOBBLE = register("sandcobble", new Item(new Item.Settings()));
+    public static final Item RED_SANDCOBBLE = register("red_sandcobble", new Item(new Item.Settings()));
+    public static final Item CALCITE_COBBLE = register("calcite_cobble", new Item(new Item.Settings()));
+    public static final Item DRIPCOBBLE = register("dripcobble", new Item(new Item.Settings()));
+    public static final Item BASALT_COBBLE = register("basalt_cobble", new Item(new Item.Settings()));
+    public static final Item BLACKCOBBLE = register("blackcobble", new Item(new Item.Settings()));
+    public static final Item END_COBBLE = register("end_cobble", new Item(new Item.Settings()));
 
     public static <I extends Item> I register(String name, I item) {
         return Registry.register(Registries.ITEM, MinecraftPlus.id(name), item);
