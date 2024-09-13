@@ -8,11 +8,10 @@
 		"Mishauwu27"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Mishauwu27/Minecraft-Plus"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/minecraftplus/icon.png",
+	"icon": "assets/minecraft-plus/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
