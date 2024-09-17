@@ -30,6 +30,7 @@ public class PlusRecipeProvider extends FabricRecipeProvider {
     @Override
     public void generate(RecipeExporter exporter) {
         offerLumbersRecipe(exporter, PlusItems.ACACIA_LUMBER, ItemTags.ACACIA_LOGS, 4);
+        offerLumbersRecipe(exporter, PlusItems.BAMBOO_LUMBER, ItemTags.BAMBOO_BLOCKS, 2);
         offerLumbersRecipe(exporter, PlusItems.BIRCH_LUMBER, ItemTags.BIRCH_LOGS, 4);
         offerLumbersRecipe(exporter, PlusItems.CHERRY_LUMBER, ItemTags.CHERRY_LOGS, 4);
         offerLumbersRecipe(exporter, PlusItems.CRIMSON_LUMBER, ItemTags.CRIMSON_STEMS, 4);
@@ -39,16 +40,14 @@ public class PlusRecipeProvider extends FabricRecipeProvider {
         offerLumbersRecipe(exporter, PlusItems.OAK_LUMBER, ItemTags.OAK_LOGS, 4);
         offerLumbersRecipe(exporter, PlusItems.SPRUCE_LUMBER, ItemTags.SPRUCE_LOGS, 4);
         offerLumbersRecipe(exporter, PlusItems.WARPED_LUMBER, ItemTags.WARPED_STEMS, 4);
-        RecipeProvider.offerReversibleCompactingRecipes(exporter,
-                RecipeCategory.MISC,
-                PlusItems.OBSIDIAN_SHARD,
+        RecipeProvider.offer2x2CompactingRecipe(exporter,
                 RecipeCategory.BUILDING_BLOCKS,
-                Items.OBSIDIAN);
-        RecipeProvider.offerReversibleCompactingRecipes(exporter,
-                RecipeCategory.MISC,
-                PlusItems.CRYING_OBSIDIAN_SHARD,
+                Items.OBSIDIAN,
+                PlusItems.OBSIDIAN_SHARD);
+        RecipeProvider.offer2x2CompactingRecipe(exporter,
                 RecipeCategory.BUILDING_BLOCKS,
-                Items.CRYING_OBSIDIAN);
+                Items.CRYING_OBSIDIAN,
+                PlusItems.CRYING_OBSIDIAN_SHARD);
         ShapedRecipeJsonBuilder.create(RecipeCategory.FOOD, PlusItems.GOLDEN_POTATO)
                 .input('#', Items.RAW_GOLD)
                 .input('X', Items.POTATO)

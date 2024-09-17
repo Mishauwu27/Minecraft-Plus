@@ -85,6 +85,7 @@ public class PlusModelProvider extends FabricModelProvider {
         itemModelGenerator.register(PlusItems.GOLDEN_BAKED_POTATO, Models.GENERATED);
         itemModelGenerator.register(PlusItems.GOLDEN_POISONOUS_POTATO, Models.GENERATED);
         itemModelGenerator.register(PlusItems.ACACIA_LUMBER, Models.GENERATED);
+        itemModelGenerator.register(PlusItems.BAMBOO_LUMBER, Models.GENERATED);
         itemModelGenerator.register(PlusItems.BIRCH_LUMBER, Models.GENERATED);
         itemModelGenerator.register(PlusItems.CHERRY_LUMBER, Models.GENERATED);
         itemModelGenerator.register(PlusItems.CRIMSON_LUMBER, Models.GENERATED);

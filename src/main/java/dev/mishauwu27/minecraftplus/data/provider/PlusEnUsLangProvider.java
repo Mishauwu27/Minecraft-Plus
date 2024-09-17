@@ -60,6 +60,7 @@ public class PlusEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(PlusItems.ENCHANTED_GOLDEN_BAKED_POTATO, "Enchanted Golden Baked Potato");
         translationBuilder.add(PlusItems.GOLDEN_POISONOUS_POTATO, "Golden Poisonous Potato");
         translationBuilder.add(PlusItems.ACACIA_LUMBER, "Acacia Lumber");
+        translationBuilder.add(PlusItems.BAMBOO_LUMBER, "Bamboo Lumber");
         translationBuilder.add(PlusItems.BIRCH_LUMBER, "Birch Lumber");
         translationBuilder.add(PlusItems.CHERRY_LUMBER, "Cherry Lumber");
         translationBuilder.add(PlusItems.CRIMSON_LUMBER, "Crimson Lumber");

@@ -54,6 +54,7 @@ public class MinecraftPlus implements ModInitializer {
 			entries.addAfter(Items.WARPED_NYLIUM, PlusBlocks.WARPED_NYLIUM_SLAB);
 			entries.addAfter(Items.SOUL_SAND, PlusBlocks.SOUL_SAND_SLAB);
 			entries.addAfter(Items.SOUL_SOIL, PlusBlocks.SOUL_SOIL_SLAB);
+			entries.addAfter(Items.BLACKSTONE, Items.BLACKSTONE_SLAB);
 			entries.addAfter(Items.BASALT, PlusBlocks.BASALT_SLAB);
 			entries.addAfter(Items.SMOOTH_BASALT, PlusBlocks.SMOOTH_BASALT_SLAB);
 			entries.addAfter(Items.END_STONE, PlusBlocks.END_STONE_SLAB);
@@ -85,9 +86,7 @@ public class MinecraftPlus implements ModInitializer {
 		});
 	}
 
-	public static Identifier id(String path) {
-		return Identifier.of("minecraft", path);
-	}
+	public static Identifier id(String path) { return Identifier.of("minecraft", path); }
 
 	public static Identifier idPlus(String path) { return Identifier.of(MOD_ID, path); }
 }

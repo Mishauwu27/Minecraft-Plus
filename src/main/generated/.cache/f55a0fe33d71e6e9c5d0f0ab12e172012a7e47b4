@@ -1,4 +1,4 @@
-// 1.21	2024-09-10T22:17:26.3745704	Minecraft+/Model Definitions
+// 1.21.1	2024-09-16T16:15:04.9359867	Minecraft+/Model Definitions
 63e05a6aac88acb18bcf4d85f21c4efd9e38a0c4 assets\minecraft\models\item\warped_wart.json
 84f821f7284a92d95e82b0e7b3106b88784fadcb assets\minecraft\blockstates\blue_ice_slab.json
 9a76c22a44e458498780da4d22b74df3b2889a12 assets\minecraft\models\item\blue_ice_slab.json
@@ -18,6 +18,7 @@ b0f8f7e9f1437d358a01cf7749656ee441aed269 assets\minecraft\models\block\gravel.js
 4f9e683dd39a73f3365b227ef8add8eea05c0858 assets\minecraft\models\block\calcite_slab_top.json
 be57820858dc26be4a9b769241681bb40f2c6ec8 assets\minecraft\blockstates\mud_slab.json
 2eb04d96584e6ac4bd1ad71095258b3073ea701a assets\minecraft\models\item\obsidian_shard.json
+6129a26b3f8f8db0acd8ca79812a344bfe605105 assets\minecraft\models\item\bamboo_lumber.json
 63a4eb68a5ebe6ebf3b8d404ddac59e945b32b01 assets\minecraft\models\item\cherry_lumber.json
 e96fff3e552f9e92deda0d2efeee76768f9cdcab assets\minecraft\models\block\smooth_basalt.json
 f87622eb59cccb534063902582911219023f897f assets\minecraft\blockstates\packed_ice.json
@@ -38,8 +39,8 @@ f8799ff99a9c8cef8ebac724812537c998ca43ef assets\minecraft\blockstates\red_sand_s
 10fc77a63eb1bb8a267dc390434e10bf8bc8f13a assets\minecraft\blockstates\dripstone_block.json
 3671c748b4d946fe78611947101b336f79e106f6 assets\minecraft\models\item\sculk_slab.json
 498d9fbc2cc07b1743b2ebbd6312d78b15291c0c assets\minecraft\models\item\netherrack_slab.json
-dd15c396a3212bf6878b9280ebbbb0c0acd73824 assets\minecraft\models\item\dirt_slab.json
 e640b5b57b090ea9936476687e184a6078fe307c assets\minecraft\models\block\mud.json
+dd15c396a3212bf6878b9280ebbbb0c0acd73824 assets\minecraft\models\item\dirt_slab.json
 5e8cfdb6ad4d29957cd58c98b261eb3499a7513f assets\minecraft\blockstates\blue_ice.json
 622b8f7fae213f7c2ef2a14f1436d8a90cb137ca assets\minecraft\models\block\soul_soil_slab_top.json
 3a3939a4944a16d5cfbb53ec54543ca1d9fe8c9d assets\minecraft\models\item\jungle_lumber.json
@@ -59,8 +60,8 @@ d0ff6aa137acf1b7122b9ff603e3d192dc389685 assets\minecraft\models\block\red_sand_
 163c9738a803edefdb97ccca7ca11518905e20e7 assets\minecraft\blockstates\ice.json
 a45f358464e95d3038366283c5fe3704023727b5 assets\minecraft\blockstates\netherrack_slab.json
 3b27c62e9c92d797f97c26c13d0fed133c080cf1 assets\minecraft\models\item\calcite_slab.json
-01f59b5750b08c12598809372a4c33f5654c6c6d assets\minecraft\blockstates\sand_slab.json
 677d5a4887a3405882cb5e5228b4329410f1e89d assets\minecraft\models\block\sculk_slab.json
+01f59b5750b08c12598809372a4c33f5654c6c6d assets\minecraft\blockstates\sand_slab.json
 b87d75a3c3d9705a48ceb06a5a54402017e5011e assets\minecraft\blockstates\mud.json
 1ed3bb5967ad6926afff362c0c374a21b12252ce assets\minecraft\models\block\soul_sand_slab.json
 26aadf610835c14bd73c5894e06acac6a0d1653c assets\minecraft\models\block\blue_ice_slab.json
@@ -89,11 +90,11 @@ d65c692b0e0823c0822946b00608951d0fc80826 assets\minecraft\models\block\dirt_slab
 17557266bb92ce2c5fe945da2908d45f7bbc2da8 assets\minecraft\models\item\spruce_lumber.json
 3bc59379f1f7a392c37d1fc4d30602d28d4732aa assets\minecraft\models\item\golden_poisonous_potato.json
 362fa2a34b757c8ac88a9cde217fac1f2249fbad assets\minecraft\models\block\blue_ice.json
-c287ad4769f7214bc62a3a7695d3eaf9c6eedd2b assets\minecraft\models\item\soul_sand_slab.json
 887bfbbfb019dd2770f01b6ef82b404bd4b50837 assets\minecraft\models\item\ice_slab.json
+c287ad4769f7214bc62a3a7695d3eaf9c6eedd2b assets\minecraft\models\item\soul_sand_slab.json
 67cdcd8bb68a5352f10df6152734b8a2f33df7e9 assets\minecraft\models\block\dripstone_slab_top.json
-f37e3dfe4acc540146d7d4ce599fb508ef16650e assets\minecraft\blockstates\gravel.json
 e973a65dfedcc9fd10f77fefb825895159182cba assets\minecraft\models\block\moss_slab_top.json
+f37e3dfe4acc540146d7d4ce599fb508ef16650e assets\minecraft\blockstates\gravel.json
 9b54f4ab53ba3f21e0efb344b08c743835476fe4 assets\minecraft\blockstates\soul_sand.json
 8068c011d09fa0e3462729ec5faa2b71844dfdb7 assets\minecraft\models\block\clay_slab.json
 66dd853f2e576f6175fc29c1c52a1b7f82dd3336 assets\minecraft\models\block\packed_ice.json
