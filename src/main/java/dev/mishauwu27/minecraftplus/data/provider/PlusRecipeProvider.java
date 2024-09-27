@@ -90,5 +90,34 @@ public class PlusRecipeProvider extends FabricRecipeProvider {
         CookingRecipeJsonBuilder.createSmelting(Ingredient.ofItems(PlusItems.GOLDEN_POTATO), RecipeCategory.FOOD, PlusItems.GOLDEN_BAKED_POTATO, 0.35F, 200)
                 .criterion("has_golden_potato", conditionsFromItem(PlusItems.GOLDEN_POTATO))
                 .offerTo(exporter);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.GRASS_SLAB, Items.GRASS_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.PODZOL_SLAB, Items.PODZOL);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.MYCELIUM_SLAB, Items.MYCELIUM);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.DIRT_SLAB, Items.DIRT);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.COARSE_DIRT_SLAB, Items.COARSE_DIRT);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.MUD_SLAB, Items.MUD);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.CLAY_SLAB, Items.CLAY);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.GRAVEL_SLAB, Items.GRAVEL);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.SAND_SLAB, Items.SAND);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.RED_SAND_SLAB, Items.RED_SAND);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.ICE_SLAB, Items.ICE);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.PACKED_ICE_SLAB, Items.PACKED_ICE);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.BLUE_ICE_SLAB, Items.BLUE_ICE);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.SNOW_SLAB, Items.SNOW_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.MOSS_SLAB, Items.MOSS_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.DEEPSLATE_SLAB, Items.DEEPSLATE);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.CALCITE_SLAB, Items.CALCITE);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.DRIPSTONE_SLAB, Items.DRIPSTONE_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.MAGMA_SLAB, Items.MAGMA_BLOCK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.NETHERRACK_SLAB, Items.NETHERRACK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.CRIMSON_NYLIUM_SLAB, Items.CRIMSON_NYLIUM);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.WARPED_NYLIUM_SLAB, Items.WARPED_NYLIUM);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.SOUL_SAND_SLAB, Items.SOUL_SAND);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.SOUL_SOIL_SLAB, Items.SOUL_SOIL);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.BASALT_SLAB, Items.BASALT);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.SMOOTH_BASALT_SLAB, Items.SMOOTH_BASALT);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.END_STONE_SLAB, Items.END_STONE);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.SCULK_SLAB, Items.SCULK);
+        offerSlabRecipe(exporter, RecipeCategory.BUILDING_BLOCKS, PlusBlocks.BEDROCK_SLAB, Items.BEDROCK);
     }
 }
