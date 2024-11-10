@@ -8,6 +8,7 @@ public class MinecraftPlusDataGenerator implements DataGeneratorEntrypoint {
 	@Override
 	public void onInitializeDataGenerator(FabricDataGenerator fabricDataGenerator) {
 		FabricDataGenerator.Pack pack = fabricDataGenerator.createPack();
+		pack.addProvider(PlusItemTagProvider::new);
 		pack.addProvider(PlusRecipeProvider::new);
 		pack.addProvider(PlusModelProvider::new);
 		pack.addProvider(PlusEnUsLangProvider::new);

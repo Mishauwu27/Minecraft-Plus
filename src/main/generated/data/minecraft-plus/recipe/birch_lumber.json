@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "lumbers",
+  "ingredients": [
+    "#minecraft:birch_logs"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft-plus:birch_lumber"
+  }
+}

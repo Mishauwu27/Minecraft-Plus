@@ -1,0 +1,65 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_beetroot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:beetroot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_brown_mushroom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_mushroom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_red_mushroom": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_mushroom"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_soup": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#c:foods/soup"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft-plus:bowl"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_brown_mushroom",
+      "has_red_mushroom",
+      "has_beetroot",
+      "has_soup"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft-plus:bowl"
+    ]
+  }
+}

@@ -1,11 +1,11 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_ender_eye": {
+    "has_logs": {
       "conditions": {
         "items": [
           {
-            "items": "minecraft:ender_eye"
+            "items": "#minecraft:warped_stems"
           }
         ]
       },
@@ -13,7 +13,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft-plus:ender_chest"
+        "recipe": "minecraft-plus:warped_lumber"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
@@ -21,12 +21,12 @@
   "requirements": [
     [
       "has_the_recipe",
-      "has_ender_eye"
+      "has_logs"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft-plus:ender_chest"
+      "minecraft-plus:warped_lumber"
     ]
   }
 }

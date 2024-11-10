@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:crying_obsidian"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft-plus:crying_obsidian_shard"
+  }
+}

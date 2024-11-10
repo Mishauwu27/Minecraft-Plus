@@ -43,13 +43,15 @@ public class PlusItems {
     public static final Item SPRUCE_LUMBER = register("spruce_lumber");
     public static final Item WARPED_LUMBER = register("warped_lumber");
     public static final Item WARPED_WART = register("warped_wart");
+    public static final Item CRIMSON_BOAT = register("crimson_boat");
+    public static final Item WARPED_BOAT = register("warped_boat");
     public static final Item COBBLE = register("cobble");
     public static final Item DEEPCOBBLE = register("deepcobble");
     public static final Item BLACKCOBBLE = register("blackcobble");
 
-    private static <I extends Item> I registerItem(String name, I item) { return Registry.register(Registries.ITEM, MinecraftPlus.id(name), item); }
-    public static Item register(String name) { return registerItem(name, new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, MinecraftPlus.id(name))))); }
-    public static Item register(String name, Item.Settings settings) { return registerItem(name, new Item(settings.registryKey(RegistryKey.of(RegistryKeys.ITEM, MinecraftPlus.id(name))))); }
+    private static <I extends Item> I registerItem(String path, I item) { return Registry.register(Registries.ITEM, MinecraftPlus.id(path), item); }
+    public static Item register(String path) { return registerItem(path, new Item(new Item.Settings().registryKey(RegistryKey.of(RegistryKeys.ITEM, MinecraftPlus.id(path))))); }
+    public static Item register(String path, Item.Settings settings) { return registerItem(path, new Item(settings.registryKey(RegistryKey.of(RegistryKeys.ITEM, MinecraftPlus.id(path))))); }
 
     public static void load() {}
 }

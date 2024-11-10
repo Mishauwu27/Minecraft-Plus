@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "lumbers",
+  "ingredients": [
+    "#minecraft:crimson_stems"
+  ],
+  "result": {
+    "count": 4,
+    "id": "minecraft-plus:crimson_lumber"
+  }
+}

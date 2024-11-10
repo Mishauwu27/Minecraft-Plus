@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "L": "#c:lumbers",
+    "P": "#minecraft:planks"
+  },
+  "pattern": [
+    "PLP",
+    "P P",
+    "PLP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:barrel"
+  }
+}
